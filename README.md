@@ -5,9 +5,8 @@
 * Java 1.8 
 * Maven 3.*
 * Development IDE Netbeans 8.2
-
+<pre>
 ## Project Structure 
-
 |   `nb-configuration.xml`  Netbeans Configuration File
 |   `pom.xml`  Parent Project pom File
 |
@@ -167,7 +166,7 @@
                             \---test
                                 \---maps
                                         BrandTest.java
-
+</pre>
 ## Project Instruction
 1. Download/Clone the project 
 2. Open `Parent Project` in Netbeans 8.2
