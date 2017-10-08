@@ -8,14 +8,14 @@
 ## Project Structure 
 <pre>
 |   <b>nb-configuration.xml</b>  <i>Netbeans Configuration File</i>
-|   `pom.xml`  Parent Project pom File
+|   <b>pom.xml</b>  <i>Parent Project pom File</i>
 |
 </pre>
 ### Client Endpoint
 <pre>
-\--- Client end Application for demonstrate RESTful actions
-|   |   `nbactions.xml`  Netbeans Configuration File
-|   |   `pom.xml`    Client end pom file
+\--- <b>Client end Application for demonstrate RESTful actions</b>
+|   |   <b>nbactions.xml</b>  <i>Netbeans Configuration File</i>
+|   |   <b>pom.xml</b>  <i>Client end pom file</i>
 |   |
 |   \---src
 |       \---main
@@ -24,14 +24,14 @@
 |                   \---esw
 |                       \---vantibolli
 |                           \---clientend
-|                                   `Application.java`  Application Startup Class with main(String[]) methods action flow.
+|                                   <b>Application.java</b>  <i>Application Startup Class with main(String[]) methods action flow.</i>
 |       
 </pre>
 ### Endpoint Service (Server)
 <pre>
-\--- Endpiont Service 
-|   |   `nbactions.xml`  Netbeans Configuration File
-|   |   `pom.xml`   Endpoint pom File
+\--- <b>Endpiont Service</b>
+|   |   <b>nbactions.xml</b>  <i>Netbeans Configuration File</i>
+|   |   <b>pom.xml</b>  <i>Endpoint pom File</i>
 |   |
 |   \---src
 |       \---main
@@ -40,19 +40,19 @@
 |       |   |       \---esw
 |       |   |           \---vantibolli
 |       |   |               \---endpiont
-|       |   |                   |   `Main.java`   Application Startup Class with main(String[]) method for 
+|       |   |                   |   <b>Main.java</b>  <i>Application Startup Class with main(String[]) method for <i>
 |       |   |                   |
 |       |   |                   \---configs
-|       |   |                   |       `EndpointConfiguration.java`   Endpoint Configurations
-|       |   |                   |       `HibernateConfiguration.java`  Hibernate Configurations
+|       |   |                   |       <b>EndpointConfiguration.java</b>  <i>Endpoint Configurations</i>
+|       |   |                   |       <b>HibernateConfiguration.java</b>  <i>Hibernate Configurations</i>
 |       |   |                   |
 |       |   |                   \---controllers
-|       |   |                   |       `ApiController.java`  Application Program Interface  Controller (Responsible for RESTful Class as GET,POST,PUT/PATCH,DELETE
-|       |   |                   |       'ReportController.java'  Controller for Reporting Calls
+|       |   |                   |       <b>ApiController.java</b>  <i>Application Program Interface  Controller (Responsible for RESTful Class as <b>GET,POST,PUT/PATCH,DELETE</b></i>
+|       |   |                   |       <b>ReportController.java</b>  <i>Controller for Reporting Calls</i>
 |       |   |                   |
 |       |   |                   \---dao
 |       |   |                   |   |   BrandDAO.java
-|       |   |                   |   |   `DAO.java`  Database logics Interface Class
+|       |   |                   |   |   <b>DAO.java</b>  <i>Database logics Interface Class</b>
 |       |   |                   |   |   LocationDAO.java
 |       |   |                   |   |   ProductDAO.java
 |       |   |                   |   |   ProductVariationDAO.java
@@ -65,7 +65,7 @@
 |       |   |                   |   |   WarehouseVariationDAO.java
 |       |   |                   |   |
 |       |   |                   |   \---impl
-|       |   |                   |           `AbstractDao.java`  Database logics Implemented Class
+|       |   |                   |           <b>AbstractDao.java</b>  <i>Database logics Implemented Class</b>
 |       |   |                   |           BrandDAOImpl.java
 |       |   |                   |           LocationDAOImpl.java
 |       |   |                   |           ProductDAOImpl.java
@@ -79,7 +79,7 @@
 |       |   |                   |           WarehouseVariationDAOImpl.java
 |       |   |                   |
 |       |   |                   \---services
-|       |   |                       |   `AService.java`  Abstract Service Interface Class (See DAO)
+|       |   |                       |   <b>AService.java</b>  <i>Abstract Service Interface Class (See DAO)</i>
 |       |   |                       |   BrandService.java
 |       |   |                       |   LocationService.java
 |       |   |                       |   ProductService.java
@@ -93,7 +93,7 @@
 |       |   |                       |   WarehouseVariationService.java
 |       |   |                       |
 |       |   |                       \---impl
-|       |   |                               `AbstractService.java`  Abstract Service Interface Class (AbstractDao)
+|       |   |                               <b>AbstractService.java</b>  <i>Abstract Service Interface Class (AbstractDao)</b>
 |       |   |                               BrandServiceImpl.java
 |       |   |                               LocationServiceImpl.java
 |       |   |                               ProductServiceImpl.java
@@ -107,10 +107,10 @@
 |       |   |                               WarehouseVariationServiceImpl.java
 |       |   |
 |       |   \---resources
-|       |       |   `application.properties`  Application's Property file for Spring Boot and Hibernate etc.
+|       |       |   <b>application.properties</b>  <i>Application's Property file for Spring Boot and Hibernate etc.</i>
 |       |       |   application.test.properties
 |       |       |   messages.properties
-|       |       |   `report.sql`  SQL Query for fetching report data from Database  
+|       |       |   <b>report.sql</b>  <i>SQL Query for fetching report data from Database</i>  
 |       |       |
 |       |       \---static
 |       \---test
@@ -120,10 +120,10 @@
 |           |           \---vantibolli
 |           |               \---endpiont
 |           |                   \---configs
-|           |                   |       `HibernateTestConfiguration.java`  Hibernate Configurations for Build Tests 
+|           |                   |       <b>HibernateTestConfiguration.java</b>  <i>Hibernate Configurations for Build Tests </i>
 |           |                   |
 |           |                   \---controller
-|           |                           `ApiControllerTest.java`  Integrated Test Class for also show work-flow of client end
+|           |                           <b>ApiControllerTest.java</b>  <i>Integrated Test Class for also show work-flow of client end</i>
 |           |
 |           \---resources
 </pre>
