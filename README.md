@@ -52,7 +52,7 @@
 |       |   |                   |
 |       |   |                   \---dao
 |       |   |                   |   |   BrandDAO.java
-|       |   |                   |   |   <b>DAO.java</b>  <i>Database logics Interface Class</b>
+|       |   |                   |   |   <b>DAO.java</b>  <i>Database logics Interface Class</i>
 |       |   |                   |   |   LocationDAO.java
 |       |   |                   |   |   ProductDAO.java
 |       |   |                   |   |   ProductVariationDAO.java
@@ -65,7 +65,7 @@
 |       |   |                   |   |   WarehouseVariationDAO.java
 |       |   |                   |   |
 |       |   |                   |   \---impl
-|       |   |                   |           <b>AbstractDao.java</b>  <i>Database logics Implemented Class</b>
+|       |   |                   |           <b>AbstractDao.java</b>  <i>Database logics Implemented Class</i>
 |       |   |                   |           BrandDAOImpl.java
 |       |   |                   |           LocationDAOImpl.java
 |       |   |                   |           ProductDAOImpl.java
@@ -93,7 +93,7 @@
 |       |   |                       |   WarehouseVariationService.java
 |       |   |                       |
 |       |   |                       \---impl
-|       |   |                               <b>AbstractService.java</b>  <i>Abstract Service Interface Class (AbstractDao)</b>
+|       |   |                               <b>AbstractService.java</b>  <i>Abstract Service Interface Class (AbstractDao)</i>
 |       |   |                               BrandServiceImpl.java
 |       |   |                               LocationServiceImpl.java
 |       |   |                               ProductServiceImpl.java
