@@ -5,12 +5,14 @@
 * Java 1.8 
 * Maven 3.*
 * Development IDE Netbeans 8.2
-<pre>
 ## Project Structure 
+<pre>
 |   `nb-configuration.xml`  Netbeans Configuration File
 |   `pom.xml`  Parent Project pom File
 |
+</pre>
 ### Client Endpoint
+<pre>
 \--- Client end Application for demonstrate RESTful actions
 |   |   `nbactions.xml`  Netbeans Configuration File
 |   |   `pom.xml`    Client end pom file
@@ -24,7 +26,9 @@
 |                           \---clientend
 |                                   `Application.java`  Application Startup Class with main(String[]) methods action flow.
 |       
+</pre>
 ### Endpoint Service (Server)
+<pre>
 \--- Endpiont Service 
 |   |   `nbactions.xml`  Netbeans Configuration File
 |   |   `pom.xml`   Endpoint pom File
@@ -122,7 +126,9 @@
 |           |                           `ApiControllerTest.java`  Integrated Test Class for also show work-flow of client end
 |           |
 |           \---resources
+</pre>
 ### Project Mapping Classes (POJOs/Data Entities)
+<pre>
 \---maps
     |   pom.xml
     |
