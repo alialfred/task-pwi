@@ -13,7 +13,7 @@
 </pre>
 ### Client Endpoint
 <pre>
-\--- <b>Client end Application for demonstrate RESTful actions</b>
+\--- <b>clientend</b>  Client end Application for demonstrate RESTful actions
 |   |   <b>nbactions.xml</b>  <i>Netbeans Configuration File</i>
 |   |   <b>pom.xml</b>  <i>Client end pom file</i>
 |   |
@@ -29,7 +29,7 @@
 </pre>
 ### Endpoint Service (Server)
 <pre>
-\--- <b>Endpiont Service</b>
+\---<b>endpoint</b>  Endpiont Service
 |   |   <b>nbactions.xml</b>  <i>Netbeans Configuration File</i>
 |   |   <b>pom.xml</b>  <i>Endpoint pom File</i>
 |   |
@@ -129,7 +129,7 @@
 </pre>
 ### Project Mapping Classes (POJOs/Data Entities)
 <pre>
-\---maps
+\---<b>maps</b>
     |   pom.xml
     |
     \---src
