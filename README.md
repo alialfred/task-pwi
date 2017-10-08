@@ -40,7 +40,7 @@
 |       |   |       \---esw
 |       |   |           \---vantibolli
 |       |   |               \---endpiont
-|       |   |                   |   <b>Main.java</b>  <i>Application Startup Class with main(String[]) method for <i>
+|       |   |                   |   <b>Main.java</b>  <i>Application Startup Class with main(String[]) method for </i>
 |       |   |                   |
 |       |   |                   \---configs
 |       |   |                   |       <b>EndpointConfiguration.java</b>  <i>Endpoint Configurations</i>
@@ -177,7 +177,7 @@
 1. Download/Clone the project 
 2. Open `Parent Project` in Netbeans 8.2
 3. Prepare the database
-  * create database `esw_vantibolli` in MySQL or change database connection url in -  [endpoint/src/main/resources/application.properties]  (https://github.com/alialfred/task-pwi/blob/master/endpiont/src/main/resources/application.properties)
+  * create database `esw_vantibolli` in MySQL or change database connection url in -  [application.properties]  (https://github.com/alialfred/task-pwi/blob/master/endpiont/src/main/resources/application.properties)
   * username/password - `root`/`` or change the values in above mentioned property file
 > **Note:** no password is set for MySQL Database connection
 4. Run `endpoint` project in Netbeans 8.2 
@@ -193,5 +193,5 @@
 ### From Netbeans 8.2
 1. Execute Build command on project `endpoint` in Netbeans 8.2 by pressing `F11` key or by clicking menu: `Run->Build Project`
   * testing output will be displayed on Netbeans output (console) window.
-> **Note:** if you want to test on `Production` profile, simply comment-out or remove the line `#61: System.setProperty("spring.profiles.active", "test");`
+> **Note:** if you want to test on `Production` profile, simply comment-out or remove the line `#61: System.setProperty("spring.profiles.active", "test");` in [ApiControllerTest]  (https://github.com/alialfred/task-pwi/blob/master/endpiont/src/test/java/task/esw/vantibolli/endpiont/controller/ApiControllerTest.java)
 
