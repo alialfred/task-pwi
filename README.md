@@ -7,7 +7,7 @@
 * Development IDE Netbeans 8.2
 ## Project Structure 
 <pre>
-|   `nb-configuration.xml`  Netbeans Configuration File
+|   <b>nb-configuration.xml</b>  Netbeans Configuration File
 |   `pom.xml`  Parent Project pom File
 |
 </pre>
